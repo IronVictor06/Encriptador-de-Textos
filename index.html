@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./img/Logotipo Alura.png" alt="Logotipo da Alura">
+    </header>
+    <main>
+        <div>
+            <textarea class="textArea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="criptografar" id="btn-criptografar" onclick="btnCriptografar()" >Criptografar</button>
+                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        <div>
+            <textarea class="mensagem"  cols="20" rows="10"></textarea>
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+      
+    </main>    
+    
+    <footer class="rodape">
+        <p>Desenvolvido por Iron Victor Guimarães</p>
+    </footer> 
+    <script src="./script.js"></script>   
+</body>
+</html>
